@@ -9,7 +9,7 @@ body{
             height: 100vh;
 
         }
-        input[type = text], input[type = password]{
+        input[type = text], input[type = password] { /* Estilo para campos de texto e senha */
             width: 100%;
             padding: 10px;
             margin: 5px 0;
@@ -19,7 +19,7 @@ body{
             box-sizing: border-box;
         }
 
-        input[type = "submit"] {
+        input[type = "submit"] { /* Estilo para o botão de envio */
             background-color: #007BFF;
             color: #fff;
             border: none;
@@ -29,15 +29,15 @@ body{
             font-size: 16px;
         }
 
-        input[type = "submit"]:hover {
+        input[type = "submit"]:hover { /* Efeito ao passar o mouse sobre o botão */
             background-color: #0056b3;
         }
 
-        form {
-            background-color: #fff;
+        form { /* Estilo para o formulário */
+            background-color: #fff; 
             padding: 20px;
             border-radius: 5px;
-            box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);  
             width: 18rem;
             max-width: 300px;
         }
