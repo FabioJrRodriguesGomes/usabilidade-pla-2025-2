@@ -1,0 +1,34 @@
+h1, h2, h3, h4, h5, h6 {
+    color: hsl(0, 83%, 42%);    
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    padding: 10px;
+}
+
+#titulo {
+    background: orangered;
+    padding: 10px;
+}
+
+#vegetais {
+    background: green;
+    padding: 10px;
+}
+
+p#descricao {
+    color: hotpink;
+}
+
+.usabilidade {
+    background: hwb(249 2% 8%);
+    padding: 10px;
+}
