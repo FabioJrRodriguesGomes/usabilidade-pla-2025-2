@@ -1,14 +1,19 @@
 import React from 'react';
-import reactDom from 'react-dom';
 import { createRoot } from 'react-dom/client';
+import './styles.css';
 
 const App = () => {
-  return <div style={{margin: 'auto', width: 768, backgroundColor:'#EEE', padding: 12, borderRadius: 8}}>
-    <label for='nome' style={{display: 'block', marginBottom: 4,}}>Nome: </label>
+
+  const estilosBotao = { marginTop: 12, paddingTop: 8, paddingBottom: 8, backgroundColor: 'blueviolet', color: 'white', border: 'none', width: 100, borderRadius: 8 };
+
+  const textoRotulo = "Nome: ";
+
+  return <div style={{ margin: 'auto', width: 768, backgroundColor: '#EEE', padding: 12, borderRadius: 8 }}>
+    <label className='rotulo' htmlFor='nome' style={{ display: 'block', marginBottom: 4, }}>{textoRotulo} </label>
     <input type='text' id='nome'
-      style={{paddingTop: 8, paddingBottom: 8, borderStyle: 'hidden', width: '100%', borderRadius: 8, outline: 'none', boxSizing: 'border-box'}} />
+      style={{ paddingTop: 8, paddingBottom: 8, borderStyle: 'hidden', width: '100%', borderRadius: 8, outline: 'none', boxSizing: 'border-box' }} />
     <button
-      style={{marginTop: 12, paddingTop: 8, paddingBottom: 8, backgroundColor: 'blueviolet', color: 'white', border: 'none', width: '100%', borderRadius: 8}}>Enviar</button>
+      style={estilosBotao}>Enviar</button>
   </div>
 }
 
