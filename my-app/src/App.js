@@ -1,19 +1,19 @@
 import './App.css';
-import Home from './components/Home';
+import Home from './components/home.js';
 
 function App() {
-const title = "Bem vindo ao projeto react-bootstrap"
-const link = [
-  {label: 'Cards', href: 'cards.html'},
-  {label: 'Botões', href: 'buttons.html'},
-  {label: 'Formulários', href: 'forms.html'},
-  {label: 'Navbar', href: 'navbar.html'},
-  {label: 'Layout', href: 'layout.html'}
-]
+  const title = "Bem vindo ao projeto react-bootstrap"
+  const links = [
+    { label: 'Cards', href: 'cards.html' },
+    { label: 'Botões', href: 'buttons.html' },
+    { label: 'Formulários', href: 'forms.html' },
+    { label: 'Navbar', href: 'navbar.html' },
+    { label: 'Layout', href: 'layout.html' }
+  ]
 
   return (
     <div>
-      <Home title = {title} links = {links} />
+      <Home title={title} links={links} />
     </div>
   );
 }
